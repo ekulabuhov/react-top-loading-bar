@@ -10,6 +10,7 @@ npm i https://github.com/ekulabuhov/react-top-loading-bar
 // App.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import LoadingBar from "react-top-loading-bar";
 
 function App() {
   const [loading, setLoading] = useState(0);
